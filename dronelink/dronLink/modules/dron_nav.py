@@ -140,9 +140,6 @@ def changeHeading (self, absoluteDegrees,blocking=True, callback=None, params = 
     else:
         return False
 
-
-
-
 def changeNavSpeed (self, speed):
     self.navSpeed = speed
     # vuelvo a ordenar que navegue en la dirección en la que estaba navegando

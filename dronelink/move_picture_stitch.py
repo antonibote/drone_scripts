@@ -15,6 +15,12 @@ dron.arm()
 print("Taking off to 5 meters.")
 dron.takeOff(5)
 
+dron.fixHeading
+print("Heading fixed")
+
+dron.setMoveSpeed(1)
+print(f"Speed set to {1} m/s")
+
 images = []
 
 for i in range(3):

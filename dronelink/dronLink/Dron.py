@@ -53,7 +53,7 @@ class Dron(object):
     from dronLink.modules.dron_arm import arm, _arm
     from dronLink.modules.dron_takeOff import takeOff, _takeOff
     from dronLink.modules.dron_RTL_Land import  RTL, Land, _goDown
-    from dronLink.modules.dron_nav import _prepare_command, go, _startGo, _stopGo, _goingTread, changeHeading, _changeHeading, unfixHeading, changeNavSpeed
+    from dronLink.modules.dron_nav import _prepare_command, go, _startGo, _stopGo, _goingTread, changeHeading, _changeHeading, unfixHeading, changeNavSpeed, fixHeading
     from dronLink.modules.dron_goto import goto, _goto, _distanceToDestinationInMeters
     from dronLink.modules.dron_parameters import getParams, _getParams, setParams, _setParams
     from dronLink.modules.dron_geofence import  setScenario, _setScenario, getScenario, _getScenario, _buildScenario
